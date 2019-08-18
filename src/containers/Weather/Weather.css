@@ -1,0 +1,34 @@
+.WeatherContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foobaz {
+    margin-top: 5px;
+    font-size: 0.9em;
+    border: none;
+    /* border-radius: 5px; */
+    opacity: 0.2;
+}
+
+.foobaz:hover {
+    transition: opacity 1s;
+    box-shadow: 2px 2px 4px 1px #ccc;
+    background-color: #ccc;
+    border: none;
+    opacity: 1;
+}
+
+.WeatherContent {
+    width: 70%;
+    background-color: #ccc;
+}
+
+@media (min-width: 700px) {
+    .WeatherContent {
+        width: 700px;
+    }
+}

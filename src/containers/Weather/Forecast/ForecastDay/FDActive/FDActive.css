@@ -1,0 +1,51 @@
+.ShowMobileActive {
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+    height: auto;
+    width: 350px;
+    box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.2), -1px 0px 2px 0px rgba(0, 0, 0, 0.2);
+    align-items: space-between;
+    cursor: pointer;
+}
+
+.ShowMobileActive:hover {
+    outline: 4px solid rgb(148, 185, 253);
+}
+
+.ShowMobileActiveMain {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 410px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+h3 {
+    margin: 7px 0px;
+}
+.ShowMobileActiveLeft {
+    display: flex;
+    align-items: flex-end;
+    margin: 5px 15px;
+    width: 140px;
+    flex-direction: column;
+}
+
+.ShowMobileActiveRight {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    width: 160px;
+    flex-direction: column;
+}
+
+
+@media (min-width: 850px) {
+    .ShowMobileActive {
+        display: none;
+    }
+}

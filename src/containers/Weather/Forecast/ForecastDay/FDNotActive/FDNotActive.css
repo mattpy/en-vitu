@@ -1,0 +1,50 @@
+.ShowMobile {
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 350px;
+    margin: 1px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.ShowMobile:hover {
+    outline: 4px solid rgb(148, 185, 253);
+    box-shadow: 0 0 0 0;
+}
+
+.bgDayTxt {
+    display: inherit;
+    width: 220px;
+    flex-direction: row;
+    /* margin: auto; */
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bgDayTxt p {
+    margin: inherit;
+}
+
+.bgSVG {
+    display: inherit;
+    position: absolute;
+    right: 50px;
+    width: 75px;
+    justify-content: center;
+}
+
+@media (min-width: 850px) {
+    .ShowMobile {
+        display: none;
+    }
+    .ShowMobileActive {
+        display: none;
+    }
+}

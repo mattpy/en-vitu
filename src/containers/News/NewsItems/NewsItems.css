@@ -1,0 +1,4 @@
+.NewsItems {
+    display: flex;
+    flex-direction: column;
+}

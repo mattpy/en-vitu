@@ -1,0 +1,17 @@
+.RadarNavbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    justify-content: center;
+    width: 400px;
+    box-sizing: border-box;
+    align-content: space-between;
+}
+
+
+
+/* .button:nth-child(2) {
+    border-left: 1px solid rgb(189, 189, 189);
+} */

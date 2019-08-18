@@ -1,0 +1,30 @@
+.ChartsContainer {
+    width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.ChartsContainer h4 {
+    color: rgb(86, 86, 255);
+    margin: 0;
+}
+
+#Graphs {
+    background-color: rgb(148, 185, 253);
+    font-family: inherit;
+    height: 25px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    z-index: 200;
+  }
+
+  #Graphs:hover {
+    background-color: rgb(230, 230, 230);
+  }

@@ -1,0 +1,12 @@
+.ModalContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    /* right: 70px; */
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    background-color: white;
+    z-index: 100;
+}

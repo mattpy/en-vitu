@@ -1,0 +1,30 @@
+.ChosenDayMain {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 410px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.ChosenDayMainLeft {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
+    width: 190px;
+    flex-direction: column;
+}
+
+.ChosenDayMainRight {
+    display: flex;
+    align-items: flex-start;
+    margin: 5px 20px;
+    width: 180px;
+    flex-direction: column;
+}
+
+@media (max-width: 849px) {
+    .ChosenDayMain {
+        display: none;
+    }
+}

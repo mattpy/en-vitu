@@ -1,0 +1,78 @@
+
+.ShowMobile {
+    /* margin: auto; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 350px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.bgDayTxt {
+    display: inherit;
+    width: 220px;
+    flex-direction: row;
+    /* margin: auto; */
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bgDayTxt p {
+    margin: inherit;
+}
+
+.bgSVG {
+    display: inherit;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+    width: 75px;
+    justify-content: center;
+}
+
+@media (min-width: 850px) {
+    .ShowMobile {
+        display: none;
+    }
+    .ShowMobileActive {
+        display: none;
+    }
+}
+
+.ShowDesktop {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.ShowDesktop:hover {
+    outline: 4px solid rgb(148, 185, 253);
+}
+
+.smDayTxt {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.smDayTxt p {
+    margin: inherit;
+}
+
+@media (max-width: 849px) {
+    .ShowDesktop {
+        display: none;
+    }
+}

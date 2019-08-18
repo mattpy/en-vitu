@@ -1,0 +1,13 @@
+.map {
+    height: 400px;
+    width: 400px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 376px) {
+    .map {
+        height: 350px;
+        width: 350px;
+    }
+}

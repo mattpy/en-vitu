@@ -1,0 +1,25 @@
+.ForecastMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ForecastGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+}
+
+.ChosenDayWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 850px) {
+    .ForecastGroup {
+        width: 450px;
+    }
+}
+

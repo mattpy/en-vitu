@@ -1,0 +1,148 @@
+.ResultsContainer {
+    position: relative;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px 5px;
+    width: 360px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.ResultsContainer h3 {
+    color: rgb(86, 86, 255);
+    margin: 0px;
+}
+
+#Graphs {
+  background-color: rgb(148, 185, 253);
+  height: 25px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+#Graphs:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.ResultsContainer:hover {
+    outline: 4px solid rgb(148, 185, 253);
+    box-shadow: 0 0 0 0;
+}
+
+.ResultsData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.ResultsTop {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.ResultsMiddle {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.ResultsBottom {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#percentageRed {
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    color: red;
+}
+
+#percentageNull {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    color: rgb(106, 106, 255);
+}
+
+#percentageGreen {
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    color: rgb(0, 189, 0);
+}
+
+#arrowUp {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgb(0, 189, 0);
+    color: rgb(0, 189, 0);
+}
+
+#arrowDown {
+  color: red;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+}
+
+#arrowNull {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 10px; 
+  height: 10px; 
+}
+
+.Switch {
+  position: absolute;
+  top: 30px;
+}
+
+
+.close {
+  position: absolute;
+  left: 22px;
+  top: 25px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+  
